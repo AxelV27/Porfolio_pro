@@ -454,6 +454,15 @@ section.visible {
         height: auto; 
     }
 
+    .projets-layer a{
+        width: 30px;
+        height: 30px;
+    }
+
+    .projets-layer p{
+        font-size: 10px;
+    }
+
     .contact-content{
         flex-direction: column;
         align-items: center;
