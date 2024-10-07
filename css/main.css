@@ -196,6 +196,103 @@ section.visible {
     font-weight: bold;
 }
 
+/*section service*/
+
+.services h2{
+    color: #754ef9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    margin-bottom: 4rem;
+}
+
+.services p{
+    color: #fff;
+    font-size: 1.6rem;
+    margin-bottom: 50px;
+}
+
+.services .competences,
+.services .outils{
+    border: 2px solid #754ef9;
+    border-radius: 20px;
+    padding: 30px;
+    position: relative;
+}
+
+.services .outils h3,
+.services .competences h3{
+    background: black;
+    color: #754ef9;
+    font-size: 1.8rem;
+    left: 50%;
+    margin: 0;
+    padding: 0 20px;
+    position: absolute;
+    top: -1.4rem;
+    transform: translateX(-50%);
+}
+
+.services .competences-outils{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    color: #fff;
+    gap: 40px;
+
+}
+
+.services .competences ul,
+.services .outils ul{
+    align-self:flex-start;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.services .competences li,
+.services .outils li{
+    margin: 10px;
+    text-align: center;
+    width: 23%;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+}
+
+.services .competences li i,
+.services .outils li i{
+    font-size: 4rem;
+}
+
+.html,
+.git{
+    color: #e56500;
+}
+
+.css{
+    color: #007ee5;
+}
+
+.sass{
+    color: #e500d2;
+}
+
+.js{
+    color: #ffde00;
+}
+
+.react{
+    color: #00e4ff;
+}
+
+.bootstrap{
+    color: #754ef9;
+}
+
+.node-js{
+    color: #6cc24a;
+}
 /*section projets*/
 
 .projets{
